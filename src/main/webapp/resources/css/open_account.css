@@ -1,0 +1,122 @@
+.page-wrapper {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.head {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head .logo {
+    width: 200px;
+}
+
+.head a {
+    display: block;
+}
+
+.header-links.pull-right  a {
+    display: block;
+    font-size: 10px;
+    color: #36c;
+    text-align: right;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header-links.pull-right  span {
+    color: #C41230;
+}
+
+body .inform-block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-wrapper .inform-block:before,
+.page-wrapper .inform-block:after {
+    content: none;
+}
+
+.inform-block h1, .inform-block .col-md-3 p {
+    color: #C41230;
+}
+
+.inform-block .col-md-3 {
+    padding-right: 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.inform-block h1 {
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.inform-block .col-md-9 {
+    padding-left: 0;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.main .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .card {
+    width: 30%;
+    position: relative;
+    height: 300px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.main img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .inform {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    bottom: 2%;
+    z-index: 2;
+}
+
+.main .inform p {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.main .inform a {
+    background-color: #0073cf;
+    border-radius: 0;
+    border: none;
+    height: 20px;
+    padding: 3px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.main .inform a:hover {
+    background-color: #0052C2;
+    text-decoration: none;
+
+}

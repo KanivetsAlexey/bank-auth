@@ -1,0 +1,229 @@
+.main-nav-top-large-container {
+    background-color: #F2F2F2;
+}
+
+.main-nav-top-large-container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-nav-top-large-container li {
+    list-style: none;
+}
+.main-nav-top-large-container  .main-nav-top-large {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px 0;
+}
+
+.main-nav-top-large > ul {
+    display: flex;
+}
+
+.main-nav-top-large > ul > li {
+    margin: 0 5px;
+    position: relative;
+}
+
+.main-nav-top-large > ul > li:hover:after {
+     content: "";
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 2px;
+     background-color: #000000;
+}
+
+.main-nav-top-large > ul > li:nth-child(1) {
+    margin-left: 0;
+}
+
+.main-nav-top-large > ul > li:nth-child(1):after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+}
+
+.main-nav-top-large > ul:nth-child(2) > li:nth-child(1):after {
+    content: none;
+}
+
+.main-nav-top-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 60px;
+}
+
+.main-nav-top-logo .logo-container {
+    align-self: flex-start;
+}
+
+.main-nav-top-logo .search.large-search {
+    align-self: flex-end;
+}
+
+.search-input-container.cf {
+    max-height: 24px;
+    display: flex;
+}
+
+.search-input-container.cf .submit.track-me {
+    background-color: #5a5a5a;
+    color: #fff;
+    height: 25px;
+}
+
+.bottom-navigation {
+    margin-top: 30px;
+    padding: 0 60px;
+}
+
+.bottom-navigation > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-navigation > ul > li {
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+}
+
+.bottom-navigation > ul > li:nth-child(1) {
+    margin: 0;
+}
+
+.bottom-navigation > ul a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bottom-navigation > ul a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bottom-navigation > ul > li:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+}
+
+.main-section {
+    margin-top: 20px;
+    padding: 0 60px;
+    background-color: #f1e1e2;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.wrapper.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.wrapper .buffer img {
+    width: calc(100% - 320px);
+    position: absolute;
+}
+
+.wrapper .form-container {
+    background-color: #e51d29;
+}
+
+.wrapper .form-container * {
+    color: #fff;
+    font-weight: 400;
+}
+
+.wrapper .form-container input {
+    height: 40px;
+    color: #414141;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 1px solid #d1c9c0;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.wrapper .form-container button {
+    background-color: #e51d29;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 40px;
+    padding: 5px 25px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 0;
+    margin: 20px 0 10px;
+    font-weight: 200;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    outline: none;
+}
+
+.wrapper .form-container button:hover {
+    background-color: #0052C2;
+}
+
+.wrapper .form-container .text-center {
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: calc(100% + 40px);
+    position: relative;
+    left: -20px;
+}
+
+.wrapper .form-container .text-center a {
+    background-color: #C41230;
+    display: block;
+    height: 39px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+body .form-group {
+    margin: 0;
+}
+
+.main-section.welcome .form-container {
+    background-color: #f1e1e2;
+}
+
+.main-section.welcome .form-container * {
+    color: #000000;
+}
+
+.main-section.welcome .form-container  h2 > a {
+    border: 1px solid #000000;
+    padding: 5px 25px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.main-section.welcome .form-container  h2 > a:hover {
+    background-color: #0052C2;
+    color: #fff;
+    text-decoration: none;
+}
